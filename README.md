@@ -99,6 +99,13 @@ credit-card-fraud-detection/
 5.  Download the data (see `data/README.md`) and place it at
     `data/creditcard.csv`.
 
+## 🚀 Live Demo
+
+The application is deployed on Streamlit Cloud.
+
+🔗 **Live Application:** 
+https://credit-card-fraud-detection-rpyhskylxy9iwwqo4vw5m4.streamlit.app/
+
 ## Run it (always from the project root)
 
   ------------------------------------------------------------------------------------------
@@ -111,7 +118,7 @@ credit-card-fraud-detection/
                                                             `data/sample_transactions.csv`
 
   Dashboard               `streamlit run app.py`            http://localhost:8501
-  Dashboard Deployed      `streamlit run app.py`            https://credit-card-fraud-detection-rpyhskylxy9iwwqo4vw5m4.streamlit.app/
+ 
 
   API                     `uvicorn api.main:app --reload`   http://127.0.0.1:8000/docs
 
