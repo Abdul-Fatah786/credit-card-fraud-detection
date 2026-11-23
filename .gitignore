@@ -1,0 +1,26 @@
+# environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# data: the Kaggle file is 150 MB, never commit it (the small demo sample is fine)
+data/creditcard.csv
+data/*.zip
+
+# models: keep only the deployed model (needed by Streamlit Community Cloud)
+models/*.pkl
+!models/best_model.pkl
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json

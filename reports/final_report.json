@@ -1,0 +1,52 @@
+{
+  "experiment": "8. XGBoost",
+  "threshold": 0.2,
+  "split": "random",
+  "test_metrics": {
+    "accuracy": 0.9995084442259752,
+    "precision": 0.9069767441860465,
+    "recall": 0.7959183673469388,
+    "f1": 0.8478260869565217,
+    "pr_auc": 0.8576001220081345,
+    "roc_auc": 0.9794696332387767,
+    "tp": 78.0,
+    "fn": 20.0,
+    "fp": 8.0,
+    "tn": 56856.0
+  },
+  "business_test": {
+    "alerts_raised": 86,
+    "fraud_detected": 78,
+    "fraud_missed": 20,
+    "losses_prevented": 12480.0,
+    "investigation_cost": 430.0,
+    "net_benefit": 12050.0,
+    "loss_with_no_model": 19600.0
+  },
+  "top_k_test": [
+    {
+      "K": 50,
+      "frauds_found": 50,
+      "precision_at_k": 1.0,
+      "share_of_all_fraud": 0.5102
+    },
+    {
+      "K": 100,
+      "frauds_found": 82,
+      "precision_at_k": 0.82,
+      "share_of_all_fraud": 0.8367
+    },
+    {
+      "K": 200,
+      "frauds_found": 85,
+      "precision_at_k": 0.425,
+      "share_of_all_fraud": 0.8673
+    },
+    {
+      "K": 500,
+      "frauds_found": 87,
+      "precision_at_k": 0.174,
+      "share_of_all_fraud": 0.8878
+    }
+  ]
+}
